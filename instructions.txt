@@ -1,7 +1,13 @@
 1. organize
-    - Data Gather
-    - Data Preprocessing
-    - Data Exploration
+    - Data Gather (DONE)
+    - Data Preprocessing (DONE)
+        - Borough Encoding
+        - Severity Encoding
+        - Dropped unused Cols
+        - Encoding Vehicles by Category
+        - Encoding Casualties by Category
+        - Merge all
+    - Data Exploration (DONE)
     - Model Creation
     - Model Run
     - Model Evaluation
@@ -23,6 +29,6 @@
 
 4. Order
     - Notebooks
-        - 1 Notebook Data Exploration
+        - 1 Notebook Data Exploration (DONE)
         - 1 Notebook For our model testing
         - 1 Final Notebook with best results and overall thoughts
