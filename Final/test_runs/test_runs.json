@@ -1,0 +1,60 @@
+{
+    "balancing_approaches": [
+        {
+            "none": {
+                "learning_rate": 0.3,
+                "max_depth": 11,
+                "subsample": 0.8,
+                "F1": 0.7098138285410741,
+                "AUC": 0.892,
+                "acc": 0.898
+            }
+        },
+        {
+            "entire": {
+                "learning_rate": 0.3,
+                "max_depth": 11,
+                "subsample": 0.8,
+                "F1": 0.817696485422328,
+                "AUC": 0.884,
+                "acc": 0.716
+                }
+        },
+        {
+            "train_only": {
+                "learning_rate": 0.3,
+                "max_depth": 11,
+                "subsample": 0.8,
+                "F1": 0.817696485422328,
+                "AUC": 0.851,
+                "acc": 0.809
+            }
+        }
+    ],
+    "feature_analysis": [
+        {
+            "mode": "borough",
+            "approach": "train_only",
+            "results": {
+                "learning_rate": 0.3,
+                "max_depth": 11,
+                "subsample": 1.0,
+                "F1": 0.6084242948291979,
+                "AUC": 0.581,
+                "acc": 0.474          
+            }
+        },
+        {
+            "mode": "lat_lon",
+            "approach": "train_only",
+            "results": {
+                "learning_rate": 0.3,
+                "max_depth": 11,
+                "subsample": 0.8,
+                "F1": 0.7515507500330894,
+                "AUC": 0.852,
+                "acc": 0.777
+            }
+        }
+    ]
+}
